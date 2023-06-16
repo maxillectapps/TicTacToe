@@ -57,23 +57,23 @@ body {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #8d3737;
+  border: 1px solid #04011b;
   float: left;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 84px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 84px;
 }
 
 .board-row:after {
   clear: both;
-  content: '';
+  content: "";
   display: table;
 }
 
@@ -82,9 +82,12 @@ body {
 }
 .game {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-top: 40px;
 }
